@@ -150,6 +150,10 @@ thead::after {
   border-radius: 4px;
 }
 
+.button__table:hover {
+  cursor: pointer;
+}
+
 .button--inactive {
   border: 1px solid #df0404;
   background: #ffc5c5;
