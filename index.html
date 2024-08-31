@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar__header">
+        <div class="navbar__header-inner">
+          <img
+            src="./img/navbar/nav-setting.svg"
+            alt="setting icon"
+            width="37"
+            height="37"
+          />
+          <h2 class="navbar__header-text">Dashboard</h2>
+          <span class="navbar__header-version">v.01</span>
+        </div>
+
+        <nav class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-key.svg"
+                    alt="key"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Dashboard</span>
+                </div>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-square.svg"
+                    alt="question"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Product</span>
+                </div>
+
+                <img
+                  src="./img/navbar/right-icon.svg"
+                  alt="right button"
+                  width="16 "
+                  height="16"
+                  class="navbar__menu-image navbar__menu-image--second"
+                />
+              </a>
+            </li>
+            <li class="navbar__menu-item navbar__menu-item--action">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-user.svg"
+                    alt="user"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Customers</span>
+                </div>
+
+                <img
+                  src="./img/navbar/right-icon.svg"
+                  alt="right button"
+                  width="16 "
+                  height="16"
+                  class="navbar__menu-image navbar__menu-image--second"
+                />
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-money.svg"
+                    alt="money"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Income</span>
+                </div>
+
+                <img
+                  src="./img/navbar/right-icon.svg"
+                  alt="right button"
+                  width="16 "
+                  height="16"
+                  class="navbar__menu-image navbar__menu-image--second"
+                />
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-discount.svg"
+                    alt="discount"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Promote</span>
+                </div>
+
+                <img
+                  src="./img/navbar/right-icon.svg"
+                  alt="right button"
+                  width="16 "
+                  height="16"
+                  class="navbar__menu-image navbar__menu-image--second"
+                />
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/dashboard" class="navbar__menu-link">
+                <div class="navbar__menu-left">
+                  <img
+                    src="./img/navbar/nav-question.svg"
+                    alt="question"
+                    width="24"
+                    height="24"
+                    class="navbar__menu-image navbar__menu-image--first"
+                  />
+                  <span class="nav__text">Help</span>
+                </div>
+
+                <img
+                  src="./img/navbar/right-icon.svg"
+                  alt="right button"
+                  width="16 "
+                  height="16"
+                  class="navbar__menu-image navbar__menu-image--second"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="navbar__footer">
+        <img src="./img/navbar/nav-project-manager.png" />
+        <div class="navbar__footer-text">
+          <p class="navbar__footer-name">Evano</p>
+          <p class="navbar__footer-speciality">Project Manager</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <header class="header">
+        <h1 class="header__text">Hello Evano &#128075; ,</h1>
+      </header>
+
+      <main class="main">
+        <div class="main__header">
+          <div class="main__header-text">
+            <p class="main__header-customers">All Customers</p>
+            <p class="main__header-members">Active Members</p>
+          </div>
+          <div class="main__header-input">
+            <img
+              src="./img/search-icon.svg"
+              alt="search"
+              height="24"
+              width="24"
+              class="main__header-input--img"
+            />
+            <input
+              class="input main__header--input"
+              placeholder="Search"
+              type="text"
+            />
+          </div>
+        </div>
+        <table class="main__table">
+          <thead class="main__table-header">
+            <tr class="main__table-list main__table-list--thead">
+              <th class="th--first">Customer Name</th>
+              <th class="th--second">Company</th>
+              <th class="th--third">Phone Number</th>
+              <th class="th--four">Email</th>
+              <th class="th--five">Country</th>
+              <th class="th--six">Status</th>
+            </tr>
+          </thead>
+
+          <tbody class="main__table-content"></tbody>
+        </table>
+
+        <div class="main__footer">
+          <p class="main__footer-text">Showing data 1 to 8 of 256K entries</p>
+
+          <div class="main__footer-pagination">
+            <img
+              src="./img/table/left-button-pagination.svg"
+              alt="left button"
+              class="main__footer-btn"
+            />
+            <div class="main__footer-button main__footer-button--active">
+              <span class="main__footer-item main__footer-item--active">1</span>
+            </div>
+
+            <div class="main__footer-button">
+              <span class="main__footer-item">2</span>
+            </div>
+
+            <div class="main__footer-button">
+              <span class="main__footer-item">3</span>
+            </div>
+
+            <span>...</span>
+
+            <div class="main__footer-button">
+              <span class="main__footer-item">40</span>
+            </div>
+            <img
+              src="./img/table/right-button-pagination.svg"
+              alt="right button"
+              class="main__footer-btn"
+            />
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
